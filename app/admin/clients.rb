@@ -5,7 +5,7 @@ ActiveAdmin.register Client do
   #
   # Uncomment all parameters which should be permitted for assignment
   #
-  # permit_params :name, :phone_number, :email, :birthday
+  permit_params :name, :phone_number, :email, :birthday
   #
   # or
   #
